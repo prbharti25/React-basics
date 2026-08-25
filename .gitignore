@@ -1,0 +1,21 @@
+node_modules/
+
+# Build output
+build/
+dist/
+
+# Bundler and tooling caches
+.parcel-cache/
+.cache/
+.vite/
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*

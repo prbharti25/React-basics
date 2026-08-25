@@ -1,0 +1,4 @@
+/node_modules/
+# This is a file where we write the files/folders to ignore while pushing to gitHub
+# A .gitignore file is used in Git to tell Git which files or folders it should NOT track or upload to the repository.
+# It prevents unnecessary or sensitive files from being committed to GitHub or Git repositories.
