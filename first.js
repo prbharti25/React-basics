@@ -1,5 +1,3 @@
-
-
 // //---------------------------Create element through JS
 
 
@@ -63,14 +61,7 @@ const li4 = React.createElement('li', {}, "Git/GitHub");
 const li5 = React.createElement('li', {}, "TypeScript");
 const Ul = React.createElement('ul',{fontSize:"30px", backgroundColor:"black", color:"white"}, [li1,li2,li3,li4,li5] )  //array ke form me bhej rhe hai list ko
 
-const para2= React.createElement('p', {fontSize:"25px", color:"black", backgroundColor:"pink"}, "lorem25");
-        
-        
-// // unordered list
-// // HTML 
-// // CSS
-// // JS
-        
+const para2= React.createElement('p', {fontSize:"25px", color:"black", backgroundColor:"pink"}, 'lorem25');     
         
 
 const root = document.getElementById("root");
@@ -79,9 +70,9 @@ const root = document.getElementById("root");
 // root.append(header3);
 // root.append(para);
 
-ReactDOM.render(header1,document.getElementById('root'));
-ReactDOM.render(header2,document.getElementById('root'));
-ReactDOM.render(header3, document.getElementById('root'));
-ReactDOM.render(para, document.getElementById('root'));
+ReactDOM.render(header1,root);
+ReactDOM.render(header2,root);
+ReactDOM.render(header3, root);
+ReactDOM.render(para, root);
 ReactDOM.render(Ul,document.getElementById('root'));
 ReactDOM.render(para2, document.getElementById('root'));
