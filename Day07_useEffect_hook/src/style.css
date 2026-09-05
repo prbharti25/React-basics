@@ -1,0 +1,33 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#root{ 
+    width: 500px;
+    padding: 20px 10px;
+    background-color: rgb(84, 84, 84);
+    text-align: center;
+    
+}
+
+button{
+    width: 70px;
+    height: 40px;
+    margin: 0px 5px;
+    color: white;
+}
+
+.count-container{
+    border-radius: 10px;
+    padding-top: 10px;
+    height: 150px;
+    width: 500px;
+    background-color: rgb(29, 171, 193);
+    text-align: center;
+}

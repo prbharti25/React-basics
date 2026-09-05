@@ -1,0 +1,27 @@
+{
+  "name": "api_handling_in_redux",
+  "version": "1.0.0",
+  "description": "Learning Resct",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prbharti25/React-basics.git"
+  },
+  "author": "Pushp Raj Bharti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prbharti25/React-basics/issues"
+  },
+  "homepage": "https://github.com/prbharti25/React-basics#readme",
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.11.2",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-redux": "^9.2.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  }
+}
